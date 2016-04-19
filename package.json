@@ -1,0 +1,27 @@
+{
+  "name": "yargs-lightning",
+  "version": "0.1.0",
+  "description": "Notes for lightning talk",
+  "main": "index.js",
+  "bin": {
+    "yl": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nexdrew/yargs-lightning.git"
+  },
+  "author": "nexdrew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nexdrew/yargs-lightning/issues"
+  },
+  "homepage": "https://github.com/nexdrew/yargs-lightning#readme",
+  "dependencies": {
+    "hl": "^1.2.0",
+    "yargonaut": "^1.1.2",
+    "yargs": "^4.6.0"
+  }
+}

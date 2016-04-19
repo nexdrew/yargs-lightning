@@ -1,0 +1,86 @@
+[
+  {
+    "title": {
+      "text": "Hello",
+      "font": "Univers",
+      "style": "green"
+    },
+    "desc": "Welcome to my first yargs lightning talk!\n\nMy name is Andrew. I'm a yargs maintainer and I work for npm, Inc. (Yes, we sell products!)"
+  },
+  {
+    "title": {
+      "text": "CLI Basics"
+    },
+    "desc": "Let's start with the basics of a CLI in Node.\n\n1. shebang: #!/usr/bin/env node\n\n2. executable file: chmod +x cli.js\n\n3. Declare \"bin\" in package.json\n\n4. install yargs: npm i --save yargs"
+  },
+  {
+    "title": {
+      "text": "yargs",
+      "style": "magenta"
+    },
+    "desc": "Official successor to optimist by substack.\n\n- chainable config methods\n\n- synchronous\n\n- .argv parsing\n\n- help/usage text\n\n- validation\n\n- commands\n\n- auto help and version flags\n\n- config files\n\nAnd more!"
+  },
+  {
+    "title": {
+      "text": "Options 1 / 2",
+      "style": "green"
+    },
+    "desc": "Configure yargs to look for flagged args\n\nUse the .option() method\n\nSpecify a flag name and meta object\n\nBasic example:"
+  },
+  {
+    "title": {
+      "text": "Options 2 / 2",
+      "style": "green"
+    },
+    "desc": "Define:\n- name, alias\n- description\n- type (string, boolean, number, etc)\n- default value\n- required?\n- group for help content\n- global? (preserved for commands)"
+  },
+  {
+    "title": {
+      "text": "Special Options",
+      "style": "yellow"
+    },
+    "desc": ".help(): when --help flag given, print help text and exit\n\n.version(): when --version flag given, lookup version from package.json, print and exit"
+  },
+  {
+    "title": {
+      "text": "Positional Args 1 / 2",
+      "style": "blue"
+    },
+    "desc": "Normally just thrown in argv._ (array of strings)"
+  },
+  {
+    "title": {
+      "text": "Positional Args 2 / 2",
+      "style": "blue"
+    },
+    "desc": "You can define these as 'commmands' as well via .command() method"
+  },
+  {
+    "title": {
+      "text": "More help text",
+      "style": "yellow"
+    },
+    "desc": "Handy methods:\n- .usage(): Synopsis of how to use your CLI\n- .example(): Give some examples of commands\n- .epilog(): Outro text\n- .wrap(): Control spacing"
+  },
+  {
+    "title": {
+      "text": "Customize!",
+      "style": "green"
+    },
+    "desc": "Use .check() for custom post-parsing validation\n\nUse .fail() for custom error handling\n\nMore control with .showHelpOnFail(false) and .exitProcess(false) <not shown below>"
+  },
+  {
+    "title": {
+      "text": "Other things not covered"
+    },
+    "desc": "- config files\n- config in package.json\n- env var support\n- command modules\n- i18n support\n- other validation\n- bash completion support"
+  },
+  {
+    "title": {
+      "text": "Goodbye",
+      "font": "Univers",
+      "style": "green"
+    },
+    "desc": "That's it for now, thanks for listening!\n\nCheck out the yargs website and docs at yargs.js.org\n\nContact me @nexdrew"
+  }
+]
